@@ -1,13 +1,21 @@
 # Ambiente Virtual
 .venv/
+env/
+venv/
 
-# Arquivos temporários e cache do Python
+# Caches e arquivos temporários do Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Dados Processados
+# Dados Processados 
 dados/processados/*.csv
 dados/processados/*.parquet
 
-# Configurações do VS Code e Sistema Operacional
+# Arquivos de IDEs e do Sistema Operacional
 .vscode/
 .DS_Store
+
+# Credenciais e Variáveis de Ambiente 
+.env
