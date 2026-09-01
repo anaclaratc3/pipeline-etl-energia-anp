@@ -1,0 +1,13 @@
+# Ambiente Virtual
+.venv/
+
+# Arquivos temporários e cache do Python
+__pycache__/
+
+# Dados Processados
+dados/processados/*.csv
+dados/processados/*.parquet
+
+# Configurações do VS Code e Sistema Operacional
+.vscode/
+.DS_Store
